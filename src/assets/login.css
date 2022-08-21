@@ -1,0 +1,48 @@
+.sign_in_section {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #E6E6E6;
+}
+
+.sign_in_content {
+    width: 20%;
+    padding-top: 5%;
+}
+.sign_in_right {
+    padding: 15px;
+}
+.sign_header{
+    padding-bottom: 15px;
+}
+.sign_header_title{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.err {
+    margin: 4px 0 0 0;
+    font-size: 13px;
+    color: #e64646;
+}
+
+@media screen and (max-width: 1400px) {
+    .sign_in_content {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 834px) {
+    .sign_in_content {
+        width: 48.2%;
+        margin: 0 25px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .sign_in_content {
+        width: 100%;
+        margin: 0 25px;
+    }
+}

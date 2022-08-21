@@ -1,0 +1,65 @@
+.cart_view_col {
+    flex: 0 0 75%;
+}
+.cart_summery_col{
+    flex: 0 0 25%;
+}
+.btn_quantity{
+    background-color: #EFF0F5;
+    border-radius: 0px;
+}
+.quantity_input{
+    max-width: 50px;
+    border: 1px #EFF0F5 solid;
+    text-align: center;
+}
+.cart_book_info_content {
+    display: flex;
+}
+.cart_book_info_content img{
+    padding-right: 20px;
+}
+.cart_submit_btn{
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 834px) {
+    .cart_view_col {
+        flex: 0 0 100%;
+    }
+    .cart_summery_col {
+        margin-top: 15px;
+        flex: 0 0 100%;
+    }
+    .padding_zero_mob {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media screen and (max-width: 428px) {
+    .my_cart_title_position {
+        text-align: center!important;
+    }
+    .text_position_my_cart{
+        text-align: center !important;
+        margin-bottom: 2px;
+    }
+    .mob_display_none{
+        display: none;
+    }
+    .quantity_content_mob .input-group{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+    .cart_book_info_content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cart_book_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+}

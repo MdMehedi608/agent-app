@@ -1,0 +1,66 @@
+﻿
+/*************************************/
+@media screen and (max-width: 834px){
+    /*header css*/
+    .top_header {
+        height: 80px;
+    }
+    .home_page_row{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .home_page_col{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #dropdownMenuButton.mob_user_btn {
+        max-width: 50px !important;
+        min-width: 20px !important;
+        padding-left: 7px;
+        padding-right: 7px;
+        display: flex;
+        align-items: center;
+        margin-left: 10px !important;
+    }
+    .mob_user_text{
+        display: none;
+    }
+    .only_mob_user_text{
+        display: block;
+        color: #007bff;
+    }
+    .mob_header_col_img{
+        display: flex;
+        align-items: center;
+    }
+    .mob_navbar {
+        display: block;
+        padding: 0px 5px 0px 15px;
+    }
+    .home_page_left_side_menu{
+        margin-top: 50px !important;
+    }
+    .section_cart{
+        display: none;
+    }
+    .home_page_right_side_div{
+        width: 100%;
+    }  
+    .sidenav{
+        display: flex;
+    }  
+    .mob_user_btn {
+        padding: 5px;
+        display: flex;
+        align-items: center;
+    }
+
+    .book_description_content span {
+        width: 20%;
+        text-align: left;
+    }
+    .book_description_content .change_tag_color {
+        width: calc(100% - 20%);
+    }
+}

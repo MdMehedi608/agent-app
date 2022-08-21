@@ -1,0 +1,9 @@
+.owl-carousel .owl-item{
+  margin-top: 8px;
+}
+.react-date-picker__wrapper{
+  border: none !important;
+}
+.react-date-picker__inputGroup {
+  padding: 0px !important;
+}

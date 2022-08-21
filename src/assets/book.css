@@ -1,0 +1,145 @@
+.page_header_content {
+    padding-bottom: 30px;
+}
+.padding_left7{
+    padding-left: 7px;
+}
+.details_quantity_content {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.details_quantity_content .quantity_text {
+    padding-right: 5px;
+}
+.details_content_text{
+    padding-bottom: 30px;
+}
+.book_details_icon{
+    padding-top: 50px;
+}
+.demand_header_row{
+    padding-bottom: 20px;
+}
+.demand_header_col p{
+    padding-left: 5px;
+}
+.demand_header_col p:first-child {
+    width: 100px;
+    padding-left: 0px;
+    font-weight: bold;
+}
+.demand_header_col {
+    display: flex;
+    align-items: center;
+    padding-bottom: 8px;
+}
+.details_concern_content{
+    padding-top: 20px;
+}
+@media screen and (max-width: 1280px) {
+    .mobheader_filter_col:first-child {
+        flex: 0 0 40%;
+    }
+}
+@media screen and (max-width: 834px) {
+    .mobheader_filter_row{
+        margin-left: -7.5px;
+        margin-right: -7.5px;
+    }
+    .mobheader_filter_col:first-child {
+        flex: 0 0 40%;
+    }
+    
+    .mobheader_filter_col {
+        padding-left: 7.5px;
+        padding-right: 7.5px;
+    }   
+    
+    .mobheader_filter_subrow{
+        margin-left: -7.5px;
+        margin-right: -7.5px;
+    }
+    .mobheader_filter_subcol {
+        padding-left: 7.5px;
+        padding-right: 7.5px;
+    }   
+    .BookDetailsImageDiv {
+        max-width: 160px;
+        margin: 0 auto;
+    }
+    .BookDetailsImageV3 {
+        width: 122px;
+        height: 181px;
+    }
+}
+
+@media screen and (max-width: 428px){
+    .book_row{
+        margin-left: -7.5px;
+        margin-right: -7.5px;
+    }
+    .book_col {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding-left: 7.5px;
+        padding-right: 7.5px;
+    }
+    .homepage_book_width {
+        min-width: 108px;
+    }
+    .book_data_content {
+        padding: 5px 5px 10px 5px;
+    }
+    .BookCarouselImg {
+        width: 108px !important;
+        height: 154px !important;
+    }
+    .bbb_viewed_item {
+        height: 320px !important;
+        max-width: 210px;
+    }
+    .mobheader_filter_col:first-child {
+        flex: 0 0 100%;        
+    }
+    .mobheader_filter_col {
+        flex: 0 0 100%;
+    }   
+    .mobheader_filter_subcol {
+        flex: 0 0 50%;
+        margin-top: 10px;
+    }  
+    .BookDetailsImageDiv {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .mobbook_details_data{
+        flex: 0 0 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    /* .details_content_text{
+        text-align: center;
+    }
+    .price_div_book_details{
+        text-align: center;
+    } */
+    .details_quantity_content {
+        justify-content: center;
+    }
+    .details_quantity_content .quantity_content_mob .input-group{
+        margin-bottom: 0px;
+    }
+    .book_details_icon {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+}
+@media screen and (max-width: 428px){
+    .homepage_book_width {
+        min-width: 94px;
+    }
+}

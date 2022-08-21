@@ -1,0 +1,17 @@
+#root{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  clear: both;
+}
+body {
+  margin: 0;
+  font-family: "HindSiliguriRegular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,13 @@
+<svg width="850" height="275" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <radialGradient gradientUnits="objectBoundingBox" r="0.5" cy="0.5" cx="0.5" id="a">
+   <stop stop-color="orange" offset="0"/>
+   <stop stop-color="orangered" offset="1"/>
+  </radialGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#fff" id="svg_3" height="275" width="853" y="1.388" x="-1.66945" stroke-width="2" fill="#e5e5e5"/>
+  <path stroke="#fff" id="svg_1" fill="url(#a)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" d="m416.02514,107.38287s-27.39482,-22.9811 -54.78965,-3.83018l0,84.26404c27.39482,-19.15092 54.78965,0 54.78965,0s27.39482,-19.15092 54.78965,0l0,-84.26404c-27.39482,-19.15092 -54.78965,3.83018 -54.78965,3.83018zm0,0l0,80.43385"/>
+ </g>
+</svg>
