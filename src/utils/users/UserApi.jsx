@@ -1,7 +1,7 @@
 import FetchApi from '../index';
 export const userLogin = async (userData) => {
     try {
-      const { data } = await FetchApi.post(`User/UserLogin`, userData);
+      const { data } = await FetchApi.post(`UserAgent/UserLogin`, userData);
       return data;
     } catch (error) {
         if (error.response) {
@@ -13,7 +13,7 @@ export const userLogin = async (userData) => {
 
 export const checkPassword = async (userData) => {
     try {
-        const {data} = await FetchApi.post(`User/CheckPassword`, userData);
+        const {data} = await FetchApi.post(`UserAgent/CheckPassword`, userData);
         return data;
     } catch (error) {
        if (error.response) {
@@ -26,7 +26,7 @@ export const checkPassword = async (userData) => {
 export const userChangePassword = async (userData) => {
     try {
         debugger
-        const {data} = await FetchApi.post(`User/UserChangePassword`, userData);
+        const {data} = await FetchApi.post(`UserAgent/UserChangePassword`, userData);
         return data;
     } catch (error) {
        if (error.response) {
